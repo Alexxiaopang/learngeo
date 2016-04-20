@@ -145,6 +145,7 @@ public class firstActivity extends Activity {
         });
     }
 
+/*
 
     @Override
     public void onStart() {
@@ -190,6 +191,7 @@ public class firstActivity extends Activity {
         super.onRestart();
         Log.d(Tab, "is onRestart called");
     }
+*/
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
