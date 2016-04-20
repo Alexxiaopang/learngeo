@@ -39,9 +39,6 @@ public class firstActivity extends Activity {
         mTextView.setText(questioninfo);
         // String string =getString(questioninfo).toString() ;
         Log.e("udatenext", "LOG_" + getString(questioninfo).toString());
-
-
-
     }
 
 
