@@ -51,7 +51,7 @@ public class CheatActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
+         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
 
@@ -59,6 +59,7 @@ public class CheatActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        super.onOptionsItemSelected(item);
         switch (item.getItemId()) {
             case R.id.add_item:
                 Toast.makeText(CheatActivity.this, "this is add", Toast.LENGTH_SHORT).show();
@@ -67,9 +68,10 @@ public class CheatActivity extends Activity {
                 Toast.makeText(CheatActivity.this, "This is del", Toast.LENGTH_SHORT).show();
                 break;
             default:
-                break;
         }
 
         return true;
     }
+
+
 }
